@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GERALD WAWERU</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -19,26 +25,30 @@
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="#"><span>About</span></a>
-                    <a href="#"><span>Services</span></a>
-                    <a href="#"><span>Clients</span></a>
+                    <a href="#Gallery"><span>First Project</span></a>
+                    <a href="#"><span>Second Project</span></a>
+                    <a href="#"><span>Third project</span></a>
+                    <a href="#"><span>About</span></a>
                     <a href="#"><span>Contact</span></a>
                 </div>
                 <div id="main">
-                        <span style="font-size:30px;cursor:pointer;color: #fff;" onclick="openNav()">&#9776;</span>
+                        <span style="font-size:30px;cursor:pointer;color: #fff;position:fixed;" onclick="openNav()">&#9776;</span>
                     </div>
-                    <div class="indicators">
+                    <div class="indicators" style="position:fixed;z-index: 1;">
                         <div class="first"></div>
                         <div class="second"></div>
                         <div class="third"></div>
                         <div class="fourth"></div>
+                        <div class="fifth"></div>
                     </div>
                     <p id="down">SCROLL DOWN<span style="line-height:20px;">-------------</span></p>
-                    <div class="container">
+                    <div class="container" id="landing">
                         <div class="row">
                             <div class="col-md-6">
                                 <p id="name" class="animated slideInLeft faster">GERALD <br><span>WAWERU</span></p>
                                 <div class="firstline col-md-3 animated slideInLeft"></div>
                                 <div class="secondline col-md-3 animated slideInLeft faster" style="margin-left:60px;"></div>
+                                <br><br>
                                 <p id="intro" class="animated slideInLeft">Full-stack developer/ <br> UI.UX designer</p>
                                 
                             </div>
@@ -49,6 +59,177 @@
                     </div>
             </div>
         </div>
+       <div class="section1" id="Gallery">
+           <div class="container" id="second">
+               <div class="row">
+                   <div class="col-md-6">
+                    <p id="title" class="animated slideInLeft fast">Galeria-de</p>
+                    <br><br><br><br><br><br><br>
+                    <div class="firstline col-md-3 animated slideInLeft" style="margin-left:80px;"></div>
+                    <div class="secondline col-md-3 animated slideInLeft faster" style="margin-left:150px;"></div>
+                    <br><br>
+                    <p id="intro" class="intro animated slideInLeft " style="margin-left:80px;">Gallery Website</p>
+                        <br>
+                    <a href="#" class="btn btn-danger animated slideInLeft faster" id="button" style="margin-left:80px;">View Project</a>
+                   </div>
+                   <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1514195037031-83d60ed3b448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:600px;" class="animated zoomInRight slow" >
+                    <div class="top-left animated slideInLeft" style="text-shadow: 9px 9px 0 rgba(0, 0, 0, .4);">-fotos</div>
+                    <div class="bottom-right animated bounceInUp slower">01</div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="section2">
+           <div class="container" id="third">
+               <div class="row">
+                   <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1509044851713-f3f27a61968d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:600px;" class="animated slideInLeft slow" >
+                    <div class="bottom-left animated bounceInUp slower">02</div>
+                   </div>
+                   <div class="col-md-6">
+                    <p id="title" class="animated slideInRight fast">News_journal</p>
+                    <br><br><br><br><br><br><br>
+                    <div class="firstline col-md-3 animated slideInRight" style="margin-left:80px;"></div>
+                    <div class="secondline col-md-3 animated slideInRight faster" ></div>
+                    <br><br>
+                    <p id="intro" class="intro animated slideInRight " style="margin-left:80px;text-align: right">Api News website</p>
+                        <br>
+                    <a href="#" class="btn btn-danger animated slideInRight faster" id="button" style="float: right;">View Project</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="section1" id="section3">
+        <div class="container" id="second">
+            <div class="row">
+                <div class="col-md-6">
+                 <p id="title" class="animated slideInLeft fast">Pitch-It</p>
+                 <br><br><br><br><br><br><br>
+                 <div class="firstline col-md-3 animated slideInLeft" style="margin-left:200px;"></div>
+                 <div class="secondline col-md-3 animated slideInLeft faster" style="margin-left:260px;"></div>
+                 <br><br>
+                 <p id="intro" class="intro animated slideInLeft " style="margin-left:200px;">A pitching app</p>
+                     <br>
+                 <a href="#" class="btn btn-danger animated slideInLeft faster" id="button" style="margin-left:200px;">View Project</a>
+                </div>
+                <div class="col-md-6">
+                 <img src="https://images.unsplash.com/photo-1464402875330-e917e36c26dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:600px;" class="animated zoomInRight slow" >
+                 <div class="top-left animated slideInLeft" style="text-shadow: 9px 9px 0 rgba(0, 0, 0, .4);">-Out</div>
+                 <div class="bottom-right animated bounceInUp slower">03</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="about">
+            <div class="">
+                <div class="left" style="height:100vh;width:50%">
+                    
+                </div>
+                <div class="right" style="height:100vh;width:50%;float: right;margin-top: -100vh;">
+        
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="padding:20px">
+                    <div class="col-md-4" style="background-color:#fff;min-height:300px;transform:translate(50%,-130%);">
+                        <div class="row">
+                            <div class="col-md-2" style="background-color:rgb(26, 25, 25);min-height:300px;left: -15px;">
+                                <ul style="transform:translate(-70%,50%)">
+                                    <li style="color:rgb(26,25,25)"><a href="#" style="color:#fff;"><i class="fas fa-phone"></i></a></li>
+                                    <li style="color:rgb(26,25,25)"><a href="#" style="color:#fff;"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li style="color:rgb(26,25,25)"><a href="#" style="color:#fff;"><i class="fab fa-twitter"></i></a></li>
+                                    <br>
+                                    <p style="transform: rotate(90deg);color:rgb(139, 126, 126);margin-top:-30px;margin-left:13px;">_________</p><br>
+                                    <br>
+                                    <li style="color:rgb(26,25,25)"><a href="" style="color:#fff;"><i class="fas fa-th"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <h1 id="about">About Me</h1>
+                                <p id="me">I'm a tech enthusiast, really fascinated about design and the broader aspect of technology.</p>
+                                <div class="row" style="margin-bottom:50px;">
+                                    <div class="button">
+                                        <a href="#" class="btn btn-info">check me out</a>
+                                    </div>
+                                    <div class="button2">
+                                        <p style="padding:10px" id="more"><a href="#">Learn more</a>     _______________</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" style="background-color:#010c16;min-height:300px;transform:translate(50%,-130%)">
+                        <div class="overlay col-md-12">
+                            <img src="img/28152491_1989005567983495_4985617313010024448_n.jpg" alt="here" style="height:150px;width:150px;border-radius: 50%;transform: translate(50%,50%);border: 6px solid white;">
+                        </div>
+                        <!-- <h6 style="color:#fff;text-align: center;margin-top:100px;">WAWERU GERALD MUCHUKI</h6> -->
+                        <p style="color:#ffff;margin-top:172px;margin-left:-15px;text-align: center; margin-top: 100px;font-family: 'Playfair Display', serif;">WAWERU GERALD MUCHUKI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="container" id="last">
+            <div class="row">
+                <div class="col-md-6 last-left">
+                 <p id="title" class="animated slideInLeft fast">Get In</p>
+                 <br><br><br><br><br><br><br>
+                 <div class="firstline col-md-3 animated slideInLeft" style="margin-left:460px;"></div>
+                 <div class="secondline col-md-3 animated slideInLeft faster" style="margin-left:520px;"></div>
+                 <br><br>
+                 <p style="margin-left:200px;color:rgb(183, 168, 168)">EMAIL:</p>
+                 <p id="intro" class="intro animated slideInLeft " style="margin-left:200px;">geerockface4@gmail.com</p>
+                 <p style="margin-left:200px;color:rgb(183, 168, 168)">LINKED_IN:</p>
+                 <p id="intro" class="intro animated slideInLeft " style="margin-left:200px;">Gerald_Waweru</p>
+                 <p style="margin-left:200px;color:rgb(183, 168, 168)">TELEPHONE:</p>
+                 <p id="intro" class="intro animated slideInLeft " style="margin-left:200px;">0722586098</p>
+                </div>
+                <div class="col-md-6 last-right">
+                 <!-- <img src="https://images.unsplash.com/photo-1464402875330-e917e36c26dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" style="width:600px;" class="animated zoomInRight slow" > -->
+                 <div class="top-left animated slideInLeft" style="text-shadow: 9px 9px 0 rgba(0, 0, 0, .4);">Touch-</div><br>
+                 <div class="top-right animated bounceInUp slower">05</div>
+                 <h5 style="margin-top:250px;color:#fff;text-align: center;">WANT TO COLABORATE ON A PROJECT?</h5>
+                 <div class="col-md-12">
+                    <form action="" style="background-color:rgba(0, 0, 0, .7);padding: 20px; margin-bottom:20px;">
+                        <div class="form-row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                          <br>
+                          <div class="form-group">
+                            <!-- <label for="inputAddress">Address</label> -->
+                            <input type="email" class="form-control" id="inputAddress" placeholder="Email Address">
+                          </div>
+                          <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Project Description"></textarea>
+                          </div>
+                        <!-- </div> -->
+                        <div class="form-row">
+                            <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                            <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+                        <div class="col"> 
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        <div class="col">
+                            <p><a href="" style="color:white;">Download Resume</a></p>
+                        </div>
+                      </form>
+                    </div>
+                 </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
         particlesJS.load('particles-js', 'particles.json' , function(){

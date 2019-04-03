@@ -23,7 +23,8 @@
         },
         "move":{
             "enable":true
-        }
+        },
+        "speed":100
     },
     "interactivity":{
         "events":{
