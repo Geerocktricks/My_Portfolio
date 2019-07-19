@@ -1,6 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
+    width: 100%;
   }
   
   .sidenav {
@@ -83,6 +84,9 @@ body {
     height:25px;
     border-bottom: 7px solid rgb(255, 0, 0);
 }
+.secondline{
+  margin-left:60px;
+}
 .first, .second, .third, .fourth{
   height:25px;
   width: 30px;
@@ -109,6 +113,7 @@ body {
   /* z-index: 9999; */
   /* position: fixed; */
   height: 100vh;
+  width: 100%;
 }
 .hero{
   position: absolute;
@@ -248,4 +253,136 @@ body {
 .form-control{
   background-color: rgba(223, 216, 216, 0.1);
   border:none;
+}
+
+/* **************************MEDIA QUERIES*********************************************************** */
+@media screen and (max-width: 995px){
+  #name{
+    font-size: 90px;
+  }
+  #portfolio{
+    font-size: 35px;
+  }
+  
+  #intro{
+    font-size: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 770px){
+  #name{
+    font-size: 70px;
+    margin-left: -50px;
+  }
+  #portfolio{
+    font-size: 30px;
+    margin-top: -140px;
+    margin-left: 120px;
+  }
+  .first, .second, .third, .fourth{
+    margin-left: -30px;
+  }
+  #down{
+    margin-left: -30px;
+  }
+  #intro{
+    font-size: 25px;
+    margin-left: -30px;
+  }
+  .firstline{
+    margin-left: -50px;
+    width: 50px;
+  }
+  .secondline{
+    margin-left: -40px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  #name{
+    font-size: 50px;
+  }
+  .first, .second, .third, .fourth{
+    margin-left: -40px;
+  }
+  #down{
+    margin-left: -40px;
+  }
+  #intro{
+    font-size: 25px;
+    margin-left: -40px;
+  }
+  #portfolio{
+    font-size: 30px;
+    /* margin-left: -50px; */
+  }
+  .firstline{
+    margin-left: -50px;
+    width: 50px;
+  }
+  .secondline{
+    margin-left: -40px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width:450px){
+#name{
+font-size: 40px;
+}
+
+#down{
+  margin-left: -50px;
+}
+#intro{
+  font-size: 25px;
+  margin-left: -50px;
+}
+#portfolio{
+  font-size: 25px;
+  /* margin-left: -50px; */
+}
+.firstline{
+  margin-left: -50px;
+  width: 50px;
+}
+.secondline{
+  margin-left: -40px;
+  width: 50px;
+}
+}
+
+@media screen and (max-width:400px){
+  #name{
+    font-size: 30px;
+    margin-left: -50px;
+    margin-top:50px;
+  }
+  .first, .second, .third, .fourth{
+    margin-left: -70px;
+    
+  }
+  #down{
+    margin-left: -70px;
+  }
+  #intro{
+    font-size: 25px;
+    margin-left: -50px;
+    margin-top: 130px;
+  }
+  #portfolio{
+    font-size: 20px;
+    margin-left: 60px;
+    /* margin-top: -170px; */
+  }
+  .firstline{
+    margin-left: -50px;
+    width: 50px;
+  }
+  .secondline{
+    margin-left: -110px;
+    width: 50px;
+  }
 }
